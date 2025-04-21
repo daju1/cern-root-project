@@ -24,7 +24,7 @@ RUN apt-get -y install vim nano
 
 RUN apt-get -y install openssl ca-certificates
 RUN apt-get -y install python3-pip
-RUN pip install jupyter metakernel
+RUN pip install jupyter metakernel numpy matplotlib
 
 RUN apt-get -y install net-tools
 
